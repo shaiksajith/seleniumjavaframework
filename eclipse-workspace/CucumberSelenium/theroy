@@ -1,0 +1,42 @@
+gherkin is a language which contains certain num of keywords by using these kewords we will write our test scenarios in featur file
+
+feature file can crate by test engneer or product manager any body can create
+every feature contains multiple scenrios and every scnario contains contain multiple steps
+the featurfile can be anything but the extension of the file is .feature
+
+for every sceanrio and step we need to create 'step defination' java class
+
+for every step  we have in feature file we need to create corresponding method to each step
+after we need run step defination
+
+if we have singke freature file u can run feutur file directly
+suppose if u have multiple fetaure files u need to create test runner class, junit class
+
+test runner classs will read all the fetaure file steps and excute correponding step methods
+
+gherkin keywords
+
+Feature:
+Scenario:
+
+      Given-step is used to set context
+      When-step is the action interaction with the system
+      Then-step for representing the outcome
+      And-step for extendibg the previous step
+      
+      
+    for storing feture we need to create in file in eclpse and in intelli j it is directory
+    
+    step defination and test runner are java classes  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
